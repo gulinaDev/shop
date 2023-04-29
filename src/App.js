@@ -14,6 +14,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
+
 function App() {
     return (
         <div className="App">
@@ -27,6 +28,7 @@ function App() {
                    <Route path={"/allbooks"} element={<AllBooks/>}/>
                    <Route path={"/cart"} element={<Cart/>}/>
                    <Route path={"/detail"} element={<Detail/>}/>
+                   <Route path={"/books"} element={<Books/>}/>
                </Routes>
             <Footer/>
         </div>

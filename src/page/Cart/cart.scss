@@ -1,0 +1,23 @@
+#cart {
+  padding-top: 190px;
+  .container {
+    width: 80%;
+    .cart {
+      &--group {
+        &__text {
+          font-size: 36px;
+          color: #19272E;
+        }
+        &--span{
+          font-size: 20px;
+          color: #19272E;
+        }
+      }
+      &--title{
+        &__text{
+          color: red;
+        }
+      }
+    }
+  }
+}

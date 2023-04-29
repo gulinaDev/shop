@@ -1,5 +1,4 @@
 import React from 'react';
-import NewBooks from "../NewBooks";
 import {Link} from "react-router-dom";
 import cart1 from "../../img/cart1.svg"
 import cart2 from "../../img/cart2.svg"

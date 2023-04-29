@@ -20,9 +20,7 @@ const Hero = () => {
             <NewBooks/>
             <Books/>
             <About/>
-
         </>
-
     );
 };
 

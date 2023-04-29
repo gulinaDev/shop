@@ -52,22 +52,20 @@ const Books = () => {
 
                     <div className="books--slider">
                         <Slider {...settings}>
-                        {
 
-
-
-                            data.filter(el =>{
-                                if (el.type === "Author Books"){
-                                    return el
-                                }
-                            }).map(el =>{
-                                return  <div className="books--slider__title">
-                                    <Link to={"detail"}><img src={el.image} alt="" className="books--slider__title--image"/></Link>
-                                    <h5 className="books--slider__title--text">{el.title}</h5>
-                                    <h5 className="books--slider__title--span">by {el.author}</h5>
-                                </div>
-                            })
-                        }
+                            {
+                                data.filter(el =>{
+                                    if (el.type === "Author Books"){
+                                        return  el
+                                    }
+                                }).map(el =>{
+                                    return  <div className="books--slider__title">
+                                        <Link to={"detail"}><img src={el.image} alt="" className="books--slider__title--image"/></Link>
+                                        <h5 className="books--slider__title--text">{el.title}</h5>
+                                        <h5 className="books--slider__title--span">by {el.author}</h5>
+                                    </div>
+                                })
+                            }
                         </Slider>
                     </div>
                 </div>

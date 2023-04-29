@@ -3,8 +3,6 @@ import img1 from "../img/cart1.svg"
 import img7 from "../img/image 6.png"
 import img8 from "../img/image 5.png"
 import img9 from "../img/image 7.png"
-
-
 import c1 from "../img/1img.png"
 import c2 from "../img/2img.png"
 import c3 from "../img/3img.png"
@@ -29,9 +27,6 @@ export const  data = [
         image:img1,
         type:'Autographed Books',
     },
-
-
-
     {
         id:uniqid(),
         title:"The Climate Book: The Facts and the Solutions",
@@ -62,10 +57,6 @@ export const  data = [
         image: img9,
         type:'New Books',
     },
-
-
-
-
     {
         id:uniqid(),
         title:"THE SUBTLE ART OF NOT GIVING A F*CK",
@@ -165,5 +156,75 @@ export const  data = [
         desc:"lorem10dcfvfvwe",
         image:c10,
         type:'Author Books',
+    },
+    {
+        id:uniqid(),
+        title:"THE SUBTLE ART OF NOT GIVING A F*CK",
+        price:190,
+        quantity:0,
+        author:"Mark Manson",
+        desc:"lorem10dcfvfvwe",
+        image:"https://bookhouse.kg/media/galleryphoto/2019/9/c7761f15-1144-4f64-929e-472450a1cd72.jpg.600x780_q94.jpg",
+        type:'Autographed Books',
+    },
+    {
+        id:uniqid(),
+        title:"THE SUBTLE ART OF NOT GIVING A F*CK",
+        price:190,
+        quantity:0,
+        author:"Mark Manson",
+        desc:"lorem10dcfvfvwe",
+        image:"https://bookhouse.kg/media/galleryphoto/2019/9/c7761f15-1144-4f64-929e-472450a1cd72.jpg.600x780_q94.jpg",
+        type:'Autographed Books',
+    },
+    {
+        id:uniqid(),
+        title:"THE SUBTLE ART OF NOT GIVING A F*CK",
+        price:190,
+        quantity:0,
+        author:"Mark Manson",
+        desc:"lorem10dcfvfvwe",
+        image:"https://bookhouse.kg/media/galleryphoto/2019/9/c7761f15-1144-4f64-929e-472450a1cd72.jpg.600x780_q94.jpg",
+        type:'Autographed Books',
+    },
+    {
+        id:uniqid(),
+        title:"THE SUBTLE ART OF NOT GIVING A F*CK",
+        price:190,
+        quantity:0,
+        author:"Mark Manson",
+        desc:"lorem10dcfvfvwe",
+        image:"https://bookhouse.kg/media/galleryphoto/2019/9/c7761f15-1144-4f64-929e-472450a1cd72.jpg.600x780_q94.jpg",
+        type:'Autographed Books',
+    },
+    {
+        id:uniqid(),
+        title:"THE SUBTLE ART OF NOT GIVING A F*CK",
+        price:190,
+        quantity:0,
+        author:"Mark Manson",
+        desc:"lorem10dcfvfvwe",
+        image: c10,
+        type:'Detective',
+    },
+    {
+        id:uniqid(),
+        title:"THE SUBTLE ART OF NOT GIVING A F*CK",
+        price:190,
+        quantity:0,
+        author:"Mark Manson",
+        desc:"lorem10dcfvfvwe",
+        image: c10,
+        type:'Sci-Fi',
+    },
+    {
+        id:uniqid(),
+        title:"THE SUBTLE ART OF NOT GIVING A F*CK",
+        price:190,
+        quantity:0,
+        author:"Mark Manson",
+        desc:"lorem10dcfvfvwe",
+        image: c10,
+        type:'For teenagers',
     },
 ]
