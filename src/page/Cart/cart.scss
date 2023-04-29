@@ -15,24 +15,21 @@ button {
 }
 
 #add {
-    
 	.add {
 		font-family: "Public Sans", sans-serif;
-		padding: 61px 0;
+		padding: 60px 0;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-        
 
 		&--img {
-			margin: 0 161px 0 100px;
-            margin-top: 90px;
+			margin: 0 162px 0 100px;
 		}
 		&--boy__like {
 			display: flex;
 			h1 {
 				width: 300px;
-				height: 45px;
+				height: 44px;
 				font-style: normal;
 				font-weight: 700;
 				font-size: 18px;
@@ -50,7 +47,7 @@ button {
 		&--boy {
 			h4 {
 				width: 145px;
-				height: 23px;
+				height: 22px;
 				font-style: normal;
 				font-weight: 400;
 				font-size: 16px;
@@ -79,14 +76,52 @@ button {
 				letter-spacing: -0.3px;
 				color: #818eea;
 			}
-
 			
-		}
-			button {
+
+			.btn1 {
 				height: 50px;
 				width: 350px;
 				background: #818eea;
 				border-radius: 8px;
+				font-weight: 600;
+				font-size: 16px;
+				line-height: 22px;
+				text-align: center;
+				letter-spacing: -0.4px;
+				color: white;
+				border: none;
 			}
+			
+			.block-btn {
+				display: flex;
+				align-items: center;
+				width: 100px;
+				height: 50px;
+				background: none;
+				border: solid 2px;
+				border-color: #818eea;
+				border-radius: 8px;
+				position: absolute;
+				right:200px ;
+				top: 408px;
+
+				h1 {
+					font-weight: 400;
+					font-size: 28px;
+					line-height: 26px;
+					text-align: center;
+					letter-spacing: -0.3px;
+					color: #0d0d0d;
+					margin-left: 15px;
+				}
+				.btn2 {
+					border: none;
+					background: none;
+					font-size: 31px;
+					color: #818eea;
+					margin-left: 13px;
+				}
+			}
+		}
 	}
 }

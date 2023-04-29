@@ -23,13 +23,13 @@ const Cart = () => {
 							eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</h3>
 						<h2>$99</h2>
-						<div class="add--boy__btn">
-							<button class="add--boy__btn1">Add to Cart</button>
-							<button class="add--boy__btn2">
-								-
+						<div сlass="btn" >
+							<button class="btn1">Add to Cart</button>
+						<div class="block-btn">
+								<button class="btn2">-</button>
 								<h1>1</h1>
-								+
-							</button>
+								<button class="btn2">+</button>
+							</div>
 						</div>
 					</div>
 				</div>

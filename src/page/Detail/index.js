@@ -3,7 +3,92 @@ import React from 'react';
 const Detail = () => {
     return (
         <div>
-            
+            <section id="cart">
+			<div class="container">
+				<div class="cart">
+					<div>
+						<div class="cart--text">
+							<h1>Your cart</h1>
+							<h5>Not ready to checkout? <a href="#">Continue Shopping</a></h5>
+						</div>
+						<div>
+							<div class="cart--block__boy">
+								<img src="./img/boy.png" alt="img" />
+								<div class="cart--block__boy--text">
+									<div class="cart--block__boy--text__remove">
+										<h1>THE BOY, THE MOLE, THE FOX AND THE HORSE</h1>
+										<a href="#">Remove</a>
+									</div>
+									<h5>by Charlie Mackesy</h5>
+									<h4>Quantity: 1</h4>
+									<h3>$99</h3>
+								</div>
+							</div>
+							<hr class="hr" />
+						</div>
+
+						<div>
+							<div class="cart--block__boy">
+								<img src="./img/subtle.png" alt="img" />
+								<div class="cart--block__boy--text">
+									<div class="cart--block__boy--text__remove">
+										<h1>THE SUBTLE ART OF NOT GIVING A F*CK</h1>
+										<a href="#">Remove</a>
+									</div>
+									<h5>by Mark Manson</h5>
+									<h4>Quantity: 1</h4>
+									<h3>$99</h3>
+								</div>
+							</div>
+							<hr class="hr" />
+						</div>
+
+						<div>
+							<div class="cart--block__boy">
+								<img src="./img/harry.png" alt="img" />
+								<div class="cart--block__boy--text">
+									<div class="cart--block__boy--text__remove">
+										<h1>HARRY POTTER</h1>
+										<a href="#">Remove</a>
+									</div>
+									<h5>by J.K. Rowling</h5>
+									<h4>Quantity: 1</h4>
+									<h3>$99</h3>
+								</div>
+							</div>
+							<hr class="hr" />
+						</div>
+					</div>
+					<div class="cart--order">
+						<h1>Order Summary</h1>
+						<div class="cart--order__flex">
+							<div class="cart--order__flex--text">
+								<h4>Shipping</h4>
+								<h3>Select Method<ion-icon name="chevron-forward-outline"></ion-icon></h3>
+							</div>
+							<div class="cart--order__flex--text">
+								<h4>Shipping</h4>
+								<h3>Select Method<ion-icon name="chevron-forward-outline"></ion-icon></h3>
+							</div>
+						</div>
+						<hr/>
+						<div class="cart--order__total">
+							<h3>Total</h3>
+							<h2>$188</h2>
+						</div>
+						<button>Continue to checkout</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+		></script>
         </div>
     );
 };
