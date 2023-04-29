@@ -4,6 +4,8 @@
   .container {
     width: 90%;
     margin: 0 auto;
+    .genres {
+
 
     .genres {
       &--title {
@@ -21,6 +23,11 @@
         }
       }
       &--image{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+
         img{
           margin:40px 10px;
           padding-left: 35px;

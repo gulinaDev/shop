@@ -21,7 +21,7 @@ function App() {
                <Routes>
                    <Route path={"/"} element={<Hero/>}/>
                    <Route path={"/about"} element={<About/>}/>
-                   <Route path={"/books"} element={<Books/>}/>
+                   <Route path={"/books"} element={<AllBooks/>}/>
                    <Route path={"/genres"} element={<Genres/>}/>
                    <Route path={"/newbooks"} element={<NewBooks/>}/>
                    <Route path={"/allbooks"} element={<AllBooks/>}/>
