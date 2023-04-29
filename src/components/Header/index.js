@@ -38,7 +38,7 @@ const Header = () => {
                             }
                             }/>
                         </div>
-                        <Link to="/detail"><RiShoppingBagLine className="header--inputs__bags"/></Link>
+                        <Link to="/cart"><RiShoppingBagLine className="header--inputs__bags"/></Link>
                     </div>
                 </div>
             </div>

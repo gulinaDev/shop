@@ -12,8 +12,8 @@ const Footer = () => {
                     </div>
                     <div className="footer--titles">
                         <h4 className="footer--titles__text">Lorem Ipsum</h4>
-                        <p>lorem</p>
-                        <p>lorem</p>
+                        <p></p>
+                        <p></p>
                         <p>lorem</p>
                         <p>lorem</p>
                         <p>lorem</p>
