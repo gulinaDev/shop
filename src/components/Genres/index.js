@@ -7,6 +7,8 @@ import cart3 from "../../img/cart3.svg"
 import cart4 from "../../img/cart4.svg"
 import cart5 from "../../img/cart5.svg"
 import cart6 from "../../img/cart6.svg";
+import {Link} from "react-router-dom";
+import {data} from "../../data/product";
 
 const Genres = () => {
     return (
@@ -27,6 +29,19 @@ const Genres = () => {
                         <img src={cart5} alt=""/>
                         <img src={cart6} alt=""/>
                     </div>
+                    <div className="genres--title">
+                        <h1 className="genres--title__text">Genres</h1>
+                        <div className="genres--title__view">
+                            <Link onClick={() => window.scroll(0, 0)} to="/allbooks"> View all</Link>
+                        </div>
+                    </div>
+                    {
+                        data.map(el =>{
+                            return <div className="genres--image">
+                                <img src={el.image} alt=""/>
+                            </div>
+                        })
+                    }
                 </div>
             </div>
 

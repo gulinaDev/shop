@@ -66,6 +66,8 @@ export const  data = [
 
 
 
+export const  data = [
+
     {
         id:uniqid(),
         title:"THE SUBTLE ART OF NOT GIVING A F*CK",
@@ -125,6 +127,8 @@ export const  data = [
         desc:"lorem10dcfvfvwe",
         image:c6,
         type:'Author Books',
+        image:"",
+        type:'Autographed Books',
     },
     {
         id:uniqid(),
@@ -135,6 +139,8 @@ export const  data = [
         desc:"lorem10dcfvfvwe",
         image:c7,
         type:'Author Books',
+        image:"https://bookhouse.kg/media/galleryphoto/2019/9/c7761f15-1144-4f64-929e-472450a1cd72.jpg.600x780_q94.jpg",
+        type:'Autographed Books',
     },
     {
         id:uniqid(),
@@ -145,6 +151,8 @@ export const  data = [
         desc:"lorem10dcfvfvwe",
         image:c8,
         type:'Author Books',
+        image:"https://bookhouse.kg/media/galleryphoto/2019/9/c7761f15-1144-4f64-929e-472450a1cd72.jpg.600x780_q94.jpg",
+        type:'Autographed Books',
     },
     {
         id:uniqid(),
@@ -155,6 +163,8 @@ export const  data = [
         desc:"lorem10dcfvfvwe",
         image:c9,
         type:'Author Books',
+        image:"https://bookhouse.kg/media/galleryphoto/2019/9/c7761f15-1144-4f64-929e-472450a1cd72.jpg.600x780_q94.jpg",
+        type:'Autographed Books',
     },
     {
         id:uniqid(),
@@ -166,4 +176,8 @@ export const  data = [
         image:c10,
         type:'Author Books',
     },
+        image:"https://bookhouse.kg/media/galleryphoto/2019/9/c7761f15-1144-4f64-929e-472450a1cd72.jpg.600x780_q94.jpg",
+        type:'Autographed Books',
+    },
+
 ]

@@ -6,6 +6,8 @@
     margin: 0 auto;
     .genres {
 
+
+    .genres {
       &--title {
         display: flex;
         justify-content: space-between;
@@ -26,6 +28,10 @@
         align-items: center;
         img{
 
+        img{
+          margin:40px 10px;
+          padding-left: 35px;
+          width: 150px;
         }
       }
     }

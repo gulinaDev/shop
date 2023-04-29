@@ -66,6 +66,13 @@ const Books = () => {
                                     <h5 className="books--slider__title--text">{el.title}</h5>
                                     <h5 className="books--slider__title--span">by {el.author}</h5>
                                 </div>
+                            data.map(el => {
+                                return  <div className="books--slider__title">
+                                    <img src={el.image} alt="" className="books--slider__title--image"/>
+                                    <h5 className="books--slider__title--text">{el.title}</h5>
+                                    <h5 className="books--slider__title--span">by {el.author}</h5>
+                                </div>
+
                             })
                         }
                         </Slider>

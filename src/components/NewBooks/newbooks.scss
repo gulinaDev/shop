@@ -11,6 +11,8 @@
       }
       &--group{
         padding-top: 100px;
+      }
+      &--group{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -39,6 +41,19 @@
         //    font-size: 18px;
         //  }
         //}
+        &__card1{
+          padding-top: 120px;
+          text-align: start;
+          &--text{
+            width: 190px;
+            font-size: 20px;
+            color: #19272E;
+          }
+          &--span{
+            color: #19272E;
+            font-size: 18px;
+          }
+        }
       }
     }
   }
