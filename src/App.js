@@ -10,6 +10,8 @@ import NewBooks from "./components/NewBooks";
 import AllBooks from "./page/AllBooks";
 import Cart from "./page/Cart";
 import Detail from "./page/Detail";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 function App() {
