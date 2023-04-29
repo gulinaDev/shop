@@ -6,60 +6,102 @@
   backdrop-filter: blur(10px);
   z-index: 99;
 
-  .header {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
+  .container {
+    width: 90%;
+    margin: 0 auto;
 
-    &--nav {
+    .header {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 30px;
 
-      &__title {
-        font-size: 1.3rem;
-        text-decoration: none;
-        color: #19272E;
-        position: relative;
-        margin: 0 15px;
+      &--nav {
+        padding-bottom: 20px;
+
+        &__title {
+          font-size: 1.3rem;
+          text-decoration: none;
+          color: #19272E;
+          position: relative;
+          margin: 0 15px;
+        }
+
+        &__title:after {
+          position: absolute;
+          content: "";
+          bottom: 0;
+          right: 50%;
+          width: 0;
+          height: 2px;
+          background: blue;
+          transition: .3s;
+        }
+
+        &__title:before {
+          position: absolute;
+          content: "";
+          bottom: 0;
+          left: 50%;
+          width: 0;
+          height: 2px;
+          background: blue;
+          transition: .3s;
+        }
+
+        &__title:hover {
+          color: blue;
+        }
+
+        &__title:hover:before {
+          width: 50%;
+        }
+
+        &__title:hover:after {
+          width: 50%;
+        }
       }
 
-      &__title:after {
-        position: absolute;
-        content: "";
-        bottom: 0;
-        right: 50%;
-        width: 0;
-        height: 2px;
-        background: teal;
-        transition: .3s;
-      }
+      &--inputs {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-bottom: 20px;
 
-      &__title:before {
-        position: absolute;
-        content: "";
-        bottom: 0;
-        left: 50%;
-        width: 0;
-        height: 2px;
-        background: teal;
-        transition: .3s;
-      }
+        &__search {
+          display: flex;
+          align-items: center;
+          width: fit-content;
 
-      &__title:hover {
-        color: darkcyan;
-      }
+          .icon {
+            font-size: 20px;
+            color: #19272E;
+          }
 
-      &__title:hover:before {
-        width: 50%;
-      }
-
-      &__title:hover:after {
-        width: 50%;
-      }
-    }
-
-    &--inputs {
-      &__search {
-        font-size: 1.2rem;
+          input {
+            transition: 0.4s;
+            width: 0;
+            background-color: transparent;
+            border: 0;
+            outline: none;
+          }
+        }
+        &__bags{
+          font-size: 1.5em;
+          color: #19272E;
+        }
       }
     }
   }
 }
+
+@media (max-width: 1200px) {
+  #header{
+    width: 96%;
+  }
+}
+
+@media (max-width: 1024px) {
+
+}
+
+

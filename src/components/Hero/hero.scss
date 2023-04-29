@@ -1,25 +1,45 @@
-#hero{
+#hero {
   padding: 100px 0;
+  position: relative;
+  top: 100px;
+  font-family: 'Public Sans', sans-serif;
+  text-align: center;
+  background: url("../../img/Main image.png") no-repeat center/cover;
+  min-height: 50vh;
 
-  .hero{
-    &--title{
-      padding: 250px 0;
-
+  .hero {
+    padding-top: 2px;
+    &--tittle {
+      display: flex;
       text-align: center;
-      margin-top: 33px;
+      flex-direction: column;
+      margin-top: 8rem;
+      font-weight: 700;
+      font-size: 48px;
+      color: white;
+    }
 
-      &-tittle{
-        margin-bottom: 16px;
-        font-family: 'Public Sans',sans-serif;
-        font-weight: 700;
-        font-size: 48px;
-        color: white;
-      }
-      &-text{
-        font-family: 'Public Sans',sans-serif;
-        font-weight: 400;
-        font-size: 18px;
+    &--text {
+      padding-top: 20px;
+      font-weight: 400;
+      font-size: 18px;
+    }
+  }
+}
+@media (max-width: 1200px) {
+  #hero{
+    .container{
+      .hero{
+        &--tittle{
+          margin-top: 3rem;
+        }
       }
     }
   }
+}
+@media (max-width: 1024px) {
+  
+}
+@media (max-width: 968px) {
+
 }
