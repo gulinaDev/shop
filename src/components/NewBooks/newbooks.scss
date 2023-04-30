@@ -3,6 +3,7 @@
   font-family: 'Public Sans', sans-serif;
 
   .container {
+    width: 90%;
     .newBooks {
       &--title {
         font-size: 40px;
@@ -10,13 +11,18 @@
         text-align: center;
         padding-top: 40px;
       }
+
       &--group{
         padding-top: 100px;
-      }
-      &--group{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+       &__block{
+
+         &--image{
+           padding-top: 2px;
+         }
+        }
         &__card{
           text-align: start;
           &--text{
@@ -58,4 +64,68 @@
       }
     }
   }
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+#newBooks{
+  .container{
+    .newBooks{
+      &--group{
+        &__block{
+
+          &--image{
+              width: 153px;
+              height: 235px;
+          }
+        }
+        &__card{
+          &--text{
+            width: 168px;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+}
+@media (max-width: 576px) {
+.newBooks{
+  .container{
+    .newBooks{
+      &--group{
+        &__block{
+          &--image{
+            width: 146px;
+          }
+        }
+        &__card{
+          &--text{
+            width: 156px;
+          }
+          &--span{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+}
+@media (max-width: 440px) {
+
+}
+@media (max-width: 380px) {
+
+}
+@media (max-width: 320px) {
+
 }

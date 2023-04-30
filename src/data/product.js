@@ -205,7 +205,7 @@ export const  data = [
         author:"Mark Manson",
         desc:"lorem10dcfvfvwe",
         image: c10,
-        type:'Detective',
+        type:'Romantic',
     },
     {
         id:uniqid(),
@@ -225,6 +225,6 @@ export const  data = [
         author:"Mark Manson",
         desc:"lorem10dcfvfvwe",
         image: c10,
-        type:'For teenagers',
+        type:'Self-Improvement',
     },
 ]

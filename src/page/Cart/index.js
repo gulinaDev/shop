@@ -16,7 +16,7 @@ const Cart = () => {
 								return el
 							} else if (el.type === "Sci-Fi"){
 								return el
-							}else if (el.type === "For teenagers"){
+							}else if (el.type === "Romantic"){
 								return el
 							}else{
 								return ""

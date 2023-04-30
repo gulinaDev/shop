@@ -1,10 +1,10 @@
 #header {
   position: fixed;
-  width: 100%;
   display: flex;
   box-shadow: 5px 17px 10px -18px rgba(4, 00, 80, 0.36);
   backdrop-filter: blur(10px);
   z-index: 99;
+  width: 100%;
 
   .container {
     width: 90%;
@@ -85,7 +85,8 @@
             outline: none;
           }
         }
-        &__bags{
+
+        &__bags {
           font-size: 1.5em;
           color: #19272E;
         }
@@ -95,12 +96,93 @@
 }
 
 @media (max-width: 1200px) {
-  #header{
-    width: 96%;
+
+  #header {
+    width: 100%;
+
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
   }
 }
 
 @media (max-width: 1024px) {
+
+  #header {
+    width: 100%;
+
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+  }
+}
+
+@media (max-width: 992px) {
+  #header {
+    .container {
+      width: 90%;
+
+      .header {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    width: 768px;
+
+    .container {
+      width: 90%;
+
+      .header {
+        &--nav {
+          display: none;
+          &__title {
+            font-size: 16px;
+
+            a {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #header {
+    width: 576px;
+    .container {
+      width: 90%;
+      margin: 0 auto;
+
+      .header {
+        &--nav {
+          display: none;
+         &__title{
+           display: none;
+         }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 440px) {
+
+}
+
+@media (max-width: 380px) {
+
+}
+
+@media (max-width: 320px) {
 
 }
 

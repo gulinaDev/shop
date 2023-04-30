@@ -1,8 +1,5 @@
 import React from 'react';
 import {data} from "../../data/product";
-import img1 from "../../img/image 6.png"
-import img2 from "../../img/image 5.png"
-import img3 from "../../img/image 7.png"
 
 const NewBooks = () => {
     return (
@@ -17,8 +14,8 @@ const NewBooks = () => {
                                 return el
                             }
                         }).map(el => {
-                            return <div className="">
-                                <img src={el.image} alt=""/>
+                            return <div className="newBooks--group__block">
+                                <img src={el.image} alt="" className="newBooks--group__block--image"/>
                                 <h1 className="newBooks--group__card--text">{el.title}</h1>
                                 <p className="newBooks--group__card--span">{el.desc}</p>
                             </div>
